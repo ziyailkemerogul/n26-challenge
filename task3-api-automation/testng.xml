@@ -1,0 +1,8 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="PetstoreTestSuite">
+    <test name="PetTests">
+        <packages>
+            <package name="com.n26.challenge.tests.*"/>
+        </packages>
+    </test>
+</suite>

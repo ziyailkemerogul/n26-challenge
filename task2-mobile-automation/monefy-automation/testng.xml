@@ -1,0 +1,8 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Monefy Automation Suite">
+    <test name="Monefy Tests">
+        <classes>
+            <class name="com.n26.challenge.AppTest"/>
+        </classes>
+    </test>
+</suite>
