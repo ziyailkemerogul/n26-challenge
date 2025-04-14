@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="10" passed="10" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2025-04-14T15:07:49 UTC" name="PetstoreTestSuite" finished-at="2025-04-14T15:08:01 UTC" duration-ms="12464">
+    <groups>
+    </groups>
+    <test started-at="2025-04-14T15:07:49 UTC" name="PetTests" finished-at="2025-04-14T15:08:01 UTC" duration-ms="12464">
+      <class name="com.n26.challenge.tests.PetDeleteTests">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.n26.challenge.tests.PetDeleteTests@35dab4eb]" started-at="2025-04-14T15:07:49 UTC" name="setUp" finished-at="2025-04-14T15:07:50 UTC" duration-ms="1042" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testDebug()[pri:0, instance:com.n26.challenge.tests.PetDeleteTests@35dab4eb]" started-at="2025-04-14T15:07:50 UTC" name="testDebug" finished-at="2025-04-14T15:07:50 UTC" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testDebug -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.n26.challenge.tests.PetDeleteTests@35dab4eb]" started-at="2025-04-14T15:07:50 UTC" name="setUp" finished-at="2025-04-14T15:07:50 UTC" duration-ms="459" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testDeletePetWithValidId()[pri:0, instance:com.n26.challenge.tests.PetDeleteTests@35dab4eb]" started-at="2025-04-14T15:07:50 UTC" name="testDeletePetWithValidId" finished-at="2025-04-14T15:07:55 UTC" duration-ms="4624" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testDeletePetWithValidId -->
+      </class> <!-- com.n26.challenge.tests.PetDeleteTests -->
+      <class name="com.n26.challenge.tests.PetUpdateTests">
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.n26.challenge.tests.PetUpdateTests@792b749c]" started-at="2025-04-14T15:07:58 UTC" name="setup" finished-at="2025-04-14T15:07:58 UTC" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="testUpdateNonExistentPet()[pri:0, instance:com.n26.challenge.tests.PetUpdateTests@792b749c]" started-at="2025-04-14T15:07:58 UTC" name="testUpdateNonExistentPet" finished-at="2025-04-14T15:07:58 UTC" duration-ms="509" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testUpdateNonExistentPet -->
+        <test-method signature="testUpdatePetWithInvalidData()[pri:0, instance:com.n26.challenge.tests.PetUpdateTests@792b749c]" started-at="2025-04-14T15:07:58 UTC" name="testUpdatePetWithInvalidData" finished-at="2025-04-14T15:08:00 UTC" duration-ms="1468" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testUpdatePetWithInvalidData -->
+        <test-method signature="testUpdatePetWithValidData()[pri:0, instance:com.n26.challenge.tests.PetUpdateTests@792b749c]" started-at="2025-04-14T15:08:00 UTC" name="testUpdatePetWithValidData" finished-at="2025-04-14T15:08:01 UTC" duration-ms="1454" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testUpdatePetWithValidData -->
+      </class> <!-- com.n26.challenge.tests.PetUpdateTests -->
+      <class name="com.n26.challenge.tests.PetReadTests">
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.n26.challenge.tests.PetReadTests@43df23d3]" started-at="2025-04-14T15:07:55 UTC" name="setup" finished-at="2025-04-14T15:07:55 UTC" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="testGetPetWithNonExistentId()[pri:0, instance:com.n26.challenge.tests.PetReadTests@43df23d3]" started-at="2025-04-14T15:07:55 UTC" name="testGetPetWithNonExistentId" finished-at="2025-04-14T15:07:55 UTC" duration-ms="467" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testGetPetWithNonExistentId -->
+        <test-method signature="testGetPetWithValidId()[pri:0, instance:com.n26.challenge.tests.PetReadTests@43df23d3]" started-at="2025-04-14T15:07:55 UTC" name="testGetPetWithValidId" finished-at="2025-04-14T15:07:56 UTC" duration-ms="968" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testGetPetWithValidId -->
+      </class> <!-- com.n26.challenge.tests.PetReadTests -->
+      <class name="com.n26.challenge.tests.PetCreateTests">
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.n26.challenge.tests.PetCreateTests@6d60fe40]" started-at="2025-04-14T15:07:56 UTC" name="setup" finished-at="2025-04-14T15:07:56 UTC" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="testCreatePetWithInvalidStatus()[pri:0, instance:com.n26.challenge.tests.PetCreateTests@6d60fe40]" started-at="2025-04-14T15:07:56 UTC" name="testCreatePetWithInvalidStatus" finished-at="2025-04-14T15:07:57 UTC" duration-ms="471" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCreatePetWithInvalidStatus -->
+        <test-method signature="testCreatePetWithMissingName()[pri:0, instance:com.n26.challenge.tests.PetCreateTests@6d60fe40]" started-at="2025-04-14T15:07:57 UTC" name="testCreatePetWithMissingName" finished-at="2025-04-14T15:07:57 UTC" duration-ms="481" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCreatePetWithMissingName -->
+        <test-method signature="testCreatePetWithValidData()[pri:0, instance:com.n26.challenge.tests.PetCreateTests@6d60fe40]" started-at="2025-04-14T15:07:57 UTC" name="testCreatePetWithValidData" finished-at="2025-04-14T15:07:58 UTC" duration-ms="474" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCreatePetWithValidData -->
+      </class> <!-- com.n26.challenge.tests.PetCreateTests -->
+    </test> <!-- PetTests -->
+  </suite> <!-- PetstoreTestSuite -->
+</testng-results>
