@@ -65,3 +65,5 @@ The framework focuses on the PET endpoint of the Swagger Petstore API for its cl
 ## Future Improvements
 - Use Allure or ExtentReports for better reporting.
 - Enable parallel test execution in TestNG.
+
+Thanks for your time and review!

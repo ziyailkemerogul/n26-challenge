@@ -53,7 +53,7 @@ After running the tests (via Docker or locally), the report is available in targ
     - JUnit 5: For test execution and assertions and for clear test structure.
     - Maven: For dependency management and test execution, for a standard build process.
     - Page Object Model (POM): For organizing test code, with pages like MainPage, TransactionPage, SearchPage, and WelcomeScreenPage.
-    - Docker: For containerization, ensuring consistent test execution environments (bonus deliverable).
+    - Docker: For containerization, ensuring consistent test execution environments.
 
 ### Approach:
     - Used POM to separate UI interactions (pages package) from test logic (tests package), enhancing maintainability.
@@ -71,8 +71,8 @@ After running the tests (via Docker or locally), the report is available in targ
 
 ## Potential Improvements
 Due to time constraints, the following improvements couldn’t be implemented but I know that they add value:
-    - Test Suites: While test suite classes (Income, Expense, Balance) were created, they couldn’t be executed due to Maven Surefire plugin issues. Fixing this would allow selective test runs, improving efficiency.
-    - Parallel Execution: Running tests in parallel could reduce execution time further (e.g., to ~150 seconds), leveraging JUnit 5’s parallel execution features.
+    - Test Suites: While test suite classes (Income, Expense, Balance) were created, they couldn’t be executed with tags due to Maven Surefire plugin issues. Fixing this would allow selective test runs, improving efficiency.
+    - Parallel Execution: Running tests in parallel could reduce execution time further (to ~150 seconds), leveraging JUnit 5’s parallel execution features.
     - Optimize Overlay Handling: Implement snackbar and settings overlay dismissal into a single utility method.
     - Reusable Test Data Setup: During implementation I faced emulator errors and lost time so I reverted back unfortunately.
 
